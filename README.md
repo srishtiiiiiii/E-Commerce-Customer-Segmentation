@@ -71,20 +71,26 @@ Model Evaluation: The model's performance is rigorously tested using a classific
 ## 📊 Model Performance & Key Findings
 The model achieved perfect accuracy on the test set, highlighting a strong—and expected—relationship between the engineered features and the churn definition.
 
-Metric	Score
-Accuracy	1.00
-Precision (1)	1.00
-Recall (1)	1.00
-F1-Score (1)	1.00
-ROC-AUC Score	1.00
+Metric Score
+Accuracy - 1.00
+
+Precision -	1.00
+
+Recall - 1.00
+
+F1-Score - 1.00
+
+ROC-AUC Score -	1.00
 
 ### Feature Importance
 The model's coefficients show that recency is the single most important factor in predicting churn, which is logical given our churn definition.
 
 ### Feature	Importance Coefficient
-recency	35.93
-frequency	0.004
-monetary	-0.012
+recency	- 35.93
+
+frequency	- 0.004
+
+monetary - -0.012
 
 The perfect score is a direct consequence of defining churn based on a recency threshold of 180 days. The logistic regression model easily learned this linear boundary. While this confirms the validity of the analysis, a real-world model would benefit from more diverse features.
 
