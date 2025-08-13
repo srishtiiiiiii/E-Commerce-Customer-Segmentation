@@ -1,4 +1,4 @@
-### E-Commerce-Customer-Segmentation
+# E-Commerce Customer Segmentation and Churn Prediction
 
 ## 📈 Customer Churn Prediction using RFM & Logistic Regression
 This is a comprehensive analysis of the Olist e-commerce dataset to predict customer churn. The project leverages RFM (Recency, Frequency, Monetary) analysis for feature engineering and builds an interpretable Logistic Regression model to identify at-risk customers.
@@ -78,10 +78,10 @@ Recall (1)	1.00
 F1-Score (1)	1.00
 ROC-AUC Score	1.00
 
-# Feature Importance
+### Feature Importance
 The model's coefficients show that recency is the single most important factor in predicting churn, which is logical given our churn definition.
 
-# Feature	Importance Coefficient
+### Feature	Importance Coefficient
 recency	35.93
 frequency	0.004
 monetary	-0.012
